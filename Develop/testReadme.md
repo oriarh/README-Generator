@@ -1,33 +1,33 @@
 # <Your-Project-Title>
-{title}
+Readme Generator
 
 ## Description
 
-{description}
+generater readme using input
 
 ## Table of Contents (Optional)
 
-{TOC}
+no
 
 ## Installation
 
-{installation}
+no steps for installation
 
 ## Usage
 
-{usage}
+no examples of use
 
 ## Credits
 
-{credits}
+just me
 
 ## License
 
-{license}
+MIT license
 
 ## Badges
 
-{badges}
+no questions
 
 ## Tests
-{tests}
+no tests 
