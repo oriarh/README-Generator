@@ -1,4 +1,4 @@
-# <README Generator>
+# <README_Generator>
 
 ## Description
 
