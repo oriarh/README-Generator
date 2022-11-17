@@ -22,9 +22,9 @@ no collaborators
 
 ## License
 
-Apache \n
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)\n
-(https://opensource.org/licenses/Apache-2.0)\n
+Apache <br>
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)<br>
+(https://opensource.org/licenses/Apache-2.0)<br>
 {licenseDescription}
 
 ## Tests
