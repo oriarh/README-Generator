@@ -1,5 +1,4 @@
-# <Your-Project-Title>
-{title}
+# <{title}>
 
 ## Description
 
@@ -24,10 +23,13 @@
 ## License
 
 {license}
-
-## Badges
-
-{badges}
+{licenseBadge}
+{licenseLink}
+{licenseDescription}
 
 ## Tests
+
 {tests}
+
+## Questions
+{questions}
