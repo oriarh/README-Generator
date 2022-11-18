@@ -6,7 +6,7 @@ Answer the questions to generate a readme
 
 ## Table of Contents (Optional)
 
-1. 12132 2. 213123 3. 1123124
+<a name = "License">License</a>
 
 ## Installation
 
