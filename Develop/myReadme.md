@@ -6,7 +6,7 @@ Answer the questions to generate a readme
 
 ## Table of Contents (Optional)
 
-<a name = "License">License</a>
+<a href = '#License'>License</a>
 
 ## Installation
 
