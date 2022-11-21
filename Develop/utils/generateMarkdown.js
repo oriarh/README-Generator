@@ -33,44 +33,41 @@ function generateMarkdown(data) {
 
 const licenseBadges = {
 
-  Apache: `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
-  (https://opensource.org/licenses/Apache-2.0)`,
+  'Apache License 2.0': `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`,
 
-  Boost: `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`,
+  'Boost Software License 1.0': `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`,
 
-  BSD3: `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`,
+  'BSD 3-Clause "New" or "Revised" License': `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`,
 
-  BSD2: `[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`,
+  'BSD 2-Clause "simplified" License': `[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`,
 
-  CreativeCommons: `[![License](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)`,
+  'Creative Commons Zero v1.0 Universal': `[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)`,
 
-  Eclipse: `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`,
+  'Eclipse Public License 2.0': `[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)`,
 
-  GNU: `[![License](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)`,
+  'GNU General Public License v3.0': `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`,
 
-  MIT: `[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  'MIT license': `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
 
 }
 
-//console.log(licenseBadges[`GNU`]);
-
 const licenseLink = {
 
-  Apache: `(https://opensource.org/licenses/Apache-2.0)`,
+  'Apache License 2.0': `(https://opensource.org/licenses/Apache-2.0)`,
 
-  Boost: `(https://www.boost.org/LICENSE_1_0.txt)`,
+  'Boost Software License 1.0': `(https://www.boost.org/LICENSE_1_0.txt)`,
 
-  BSD3: `(https://opensource.org/licenses/BSD-3-Clause)`,
+  'BSD 3-Clause "New" or "Revised" License': `(https://opensource.org/licenses/BSD-3-Clause)`,
 
-  BSD2: `(https://opensource.org/licenses/BSD-2-Clause)`,
+  'BSD 2-Clause "simplified" License': `(https://opensource.org/licenses/BSD-2-Clause)`,
 
-  CreativeCommons: `(http://creativecommons.org/publicdomain/zero/1.0/)`,
+  'Creative Commons Zero v1.0 Universal': `(http://creativecommons.org/publicdomain/zero/1.0/)`,
 
-  Eclipse: `(https://opensource.org/licenses/EPL-1.0)`,
+  'Eclipse Public License 2.0': `(https://opensource.org/licenses/EPL-1.0)`,
 
-  GNU: `(https://www.gnu.org/licenses/agpl-3.0)`,
+  'GNU General Public License v3.0': `(https://www.gnu.org/licenses/agpl-3.0)`,
 
-  MIT: `(https://opensource.org/licenses/MIT)`
+  'MIT license': `(https://opensource.org/licenses/MIT)`
 
 }
 

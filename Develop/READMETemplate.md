@@ -1,4 +1,4 @@
-# <{title}>
+# {title} {licenseBadge}
 
 ## Description
 
@@ -6,7 +6,12 @@
 
 ## Table of Contents (Optional)
 
-{TOC}
+<a href = '#Installation'>Installation</a>
+<a href = '#Usage'>Usage</a>
+<a href = '#Credits'>Credits</a>
+<a href = '#License'>License</a>
+<a href = '#Tests'>Tests</a>
+<a href = '#Questions'>Questions</a>
 
 ## Installation
 
@@ -22,14 +27,13 @@
 
 ## License
 
-{license}
-{licenseBadge}
+This licence is covered under the {license}.
 {licenseLink}
-{licenseDescription}
 
 ## Tests
 
 {tests}
 
 ## Questions
-{questions}
+<a href = 'https://github.com/{githubUsername}'>{githubUsername}</a>
+For additional information, please email us at {githubEmail}.
