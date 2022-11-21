@@ -20,9 +20,9 @@ The answers from those questions will be used to generate a Readme file for the 
 
 
 ## Credits
-UC Berkeley Extension Instructional Staff
+UC Berkeley Extension Instructional Staff <br>
 @Xandromus
-Xandromus Xander Rapstine
+Xandromus Xander Rapstine <br>
 @gachoi06
 gachoi06 Grace Choi
 
