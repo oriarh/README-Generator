@@ -6,12 +6,12 @@
 
 ## Table of Contents (Optional)
 
-<a href = '#Installation'>Installation</a>
-<a href = '#Usage'>Usage</a>
-<a href = '#Credits'>Credits</a>
-<a href = '#License'>License</a>
-<a href = '#Tests'>Tests</a>
-<a href = '#Questions'>Questions</a>
+<a href = '#Installation'>Installation</a><br>
+<a href = '#Usage'>Usage</a><br>
+<a href = '#Credits'>Credits</a><br>
+<a href = '#License'>License</a><br>
+<a href = '#Tests'>Tests</a><br>
+<a href = '#Questions'>Questions</a><br>
 
 ## Installation
 
@@ -27,7 +27,7 @@
 
 ## License
 
-This licence is covered under the {license}.
+This licence is covered under the {license}.<br>
 {licenseLink}
 
 ## Tests
@@ -35,5 +35,5 @@ This licence is covered under the {license}.
 {tests}
 
 ## Questions
-<a href = 'https://github.com/{githubUsername}'>{githubUsername}</a>
+<a href = 'https://github.com/{githubUsername}'>{githubUsername}</a><br>
 For additional information, please email us at {githubEmail}.
