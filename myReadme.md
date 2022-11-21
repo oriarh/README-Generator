@@ -1,8 +1,8 @@
-# README Generator [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+# README Generator [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-asidn oiasd oainsodi nad
+This app generates a readme from user input
 
 ## Table of Contents (Optional)
 
@@ -15,25 +15,25 @@ asidn oiasd oainsodi nad
 
 ## Installation
 
-askdjba sdkj absjkdb asdjbk 
+Node, VS code are required
 
 ## Usage
 
-alksnd aslkd nalksdn asd
+This is an example of use
 
 ## Credits
 
-kasdkj najksdnb jkansd
+UC Berkeley starter code
 
 ## License
 
-This licence is covered under the BSD 2-Clause "simplified" License.<br>
-(https://opensource.org/licenses/BSD-2-Clause)
+This licence is covered under the MIT license.<br>
+(https://opensource.org/licenses/MIT)
 
 ## Tests
 
-lakndf gioerngoun ef
+No tests yet
 
 ## Questions
-<a href = 'https://github.com/ORIARH'>ORIARH</a><br>
+<a href = 'https://github.com/Oriarh'>Oriarh</a><br>
 For additional information, please email us at osamariar@hotmail.com.

@@ -1,22 +1,6 @@
-// // TODO: Include packages needed for this application
-//1. inquirer 2. fs
-
-// // TODO: Create an array of questions for user input
-// const questions = [];
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
-
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdownObj = require('./Develop/utils/generateMarkdown');
-console.log(generateMarkdownObj);
 const { resolve } = require('path');
 inquirer.prompt([{
         type: 'input',
@@ -68,26 +52,12 @@ inquirer.prompt([{
 )
 
 //Gets the responses and replaces them in the README.md
-
 .then((response) => {
-    //console.log(response);
 
    let contents = fs.readFileSync('Develop/READMETemplate.md','utf-8');
 
     Object.keys(response).forEach((key) => {
-        const value = response[key]
-        // if(key === 'githubUsername') {
-        //     inquirer.prompt ([{
-        //         type: 'input',
-        //         message: 'What is the best email to reach you at?',
-        //         name: 'githubEmail'
-        //     }])
-        //     .then((reponse) => {
-        //         contents=contents.replace(`{githubEmail}`,value)
-        //     })
-        //     contents = contents.replace(`{${key}}`,value);
-        // }
-        // else 
+        const value = response[key];
         if (key === 'license') {
             contents = contents.replace(`{${key}}`,value);
             contents = contents.replace(`{licenseBadge}`,generateMarkdownObj.renderLicenseBadge(value));
